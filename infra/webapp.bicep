@@ -1,5 +1,5 @@
 param webAppName string = uniqueString(resourceGroup().id) // Generate unique String for web app name
-param sku string = 'S1' // The SKU of App Service Plan
+param sku string = 'F1' // Changed from S1 to F1 (Free tier)
 param location string = resourceGroup().location
 
 var appServicePlanName = toLower('AppServicePlan-${webAppName}')
@@ -12,6 +12,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2022-09-01' = {
   }
   sku: {
     name: sku
+    tier: 'Free' // Add this line to specify the tier
   }
 }
 resource appService 'Microsoft.Web/sites@2022-09-01' = {
