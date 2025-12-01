@@ -8,7 +8,8 @@ env:
   RESOURCE-GROUP: rg-eshoponweb
   LOCATION: southcentralus
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: 9a866070-32e0-429e-aa2f-e3eb7f11ec15
+  # Susbscription change 9a866070-32e0-429e-aa2f-e3eb7f11ec15
+  SUBSCRIPTION-ID: 90e80f4c-cc50-4b3c-aa5b-e1f6ad2c83ca
   WEBAPP-NAME: eshoponweb-webapp57123595
 
 jobs:
