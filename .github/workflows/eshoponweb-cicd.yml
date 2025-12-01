@@ -10,7 +10,8 @@ env:
   TEMPLATE-FILE: infra/webapp.bicep
   # Susbscription change 9a866070-32e0-429e-aa2f-e3eb7f11ec15
   SUBSCRIPTION-ID: 90e80f4c-cc50-4b3c-aa5b-e1f6ad2c83ca
-  WEBAPP-NAME: eshoponweb-webapp57123595
+  # Webapp-name change eshoponweb-webapp57123595
+  WEBAPP-NAME: eshoponweb-webapp57228654
 
 jobs:
   #Build, test and publish .net web project in repository
