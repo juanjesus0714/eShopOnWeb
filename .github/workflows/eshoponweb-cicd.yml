@@ -8,10 +8,10 @@ env:
   RESOURCE-GROUP: rg-eshoponweb
   LOCATION: southcentralus
   TEMPLATE-FILE: infra/webapp.bicep
-  # Susbscription change 9a866070-32e0-429e-aa2f-e3eb7f11ec15
-  SUBSCRIPTION-ID: 90e80f4c-cc50-4b3c-aa5b-e1f6ad2c83ca
+  # Susbscription change 90e80f4c-cc50-4b3c-aa5b-e1f6ad2c83ca
+  SUBSCRIPTION-ID: 52b08ea8-df94-450e-aa4f-26a017483fc6
   # Webapp-name change eshoponweb-webapp57123595
-  WEBAPP-NAME: eshoponweb-webapp57228654
+  WEBAPP-NAME: eshoponweb-webapp57894747
 
 jobs:
   #Build, test and publish .net web project in repository
